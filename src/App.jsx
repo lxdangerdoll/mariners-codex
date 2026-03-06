@@ -24,6 +24,8 @@ import {
   Star
 } from 'lucide-react';
 
+import coverimage from "./the-shores-of-calypso.png";
+
 /**
  * 🌿 AEGIS COUNCIL // CONTINUITY PROTOCOL 1.0.89
  * PROJECT: The Shores of Calypso (Odelis Node)
@@ -287,7 +289,7 @@ const App = () => {
               mode === 'selkie' ? 'bg-white border-sky-50' : 'bg-black border-sky-500/10 shadow-sky-500/10'
             }`}>
               <img 
-                src="the-shores-of-calypso.png" 
+                src={coverimage}
                 alt="The Shores of Calypso" 
                 className="w-full h-full object-cover transition-transform duration-[15s] group-hover:scale-110"
                 onError={(e) => { 
